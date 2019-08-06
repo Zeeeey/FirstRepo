@@ -1,0 +1,185 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+ul,li {
+    list-style-type: none;
+  }
+
+  .margin-top_40{
+    margin-top: 40px;
+    }
+    
+    .margin-top_60{
+    margin-top: 60px;
+    }
+  
+    .margin_right_10{
+    margin-right: 10px;
+  }
+
+  .margin_right_60{
+    margin-right: 60px; 
+  }
+
+  .margin_left_10{
+      margin-left:10px;
+  }
+
+  .margin_bottom_10{
+    margin-bottom: 40px; 
+  }
+
+  .margin_right_40{
+      margin-right: 20px;
+  }
+
+  .font_20px{
+      font-size: 20px;
+  }
+
+  .font_30px{
+      font-size: 30px;
+  }
+  
+  .font_35px{
+    font-size: 35px;
+}
+
+.lineheight10{
+    line-height: 1;
+}
+
+.lineheight20{
+    line-height: 20%;
+}
+
+  .buttonSquares {
+      border: 1px solid black;
+      padding: 10px;
+  }
+  
+.navigation{
+    width: 100%;  
+    height: 50px;
+    margin-top: 25px;
+     /*background-color: black; */
+    display: flex;
+    flex-wrap: nowrap ;
+    justify-content: space-between;
+}
+
+.innercontent{
+    width: 100%;  
+    height: 100%;
+    margin-top: 25px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: nowrap ;
+    justify-content: space-between;
+
+}
+
+.sidebarA{
+    margin-left: 100px;
+}
+
+.center_image{
+  background-color: red;
+  height: 50px;
+  width: auto;
+}
+/* 
+.center_image{
+    margin: auto;
+    /*width: 50%;*/
+    border: 3px solid green;
+    padding: 10px;
+} */
+
+.navigation__imageHolder{
+    /* width: 60%;  */
+    margin-left: 100px;
+    /* background-color: blue !important;
+    padding: 10px;
+    border: 10px; */
+    display: flex;
+    flex-wrap: nowrap ;
+    justify-content: space-around;
+
+}
+
+
+
+/* #work{
+    background-color: blue !important;
+} */
+
+.navigation__loginmenu{
+    height: 50px;
+    /* background-color: red; */
+    width: 300px; 
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation__imageHolder__innermenu{
+  display: flex;
+  align-items: center;
+}
+
+.navigation__imageHolder__image{
+  width: 150px;
+}
+
+
+.applink{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.applink__image{
+
+  background-color: red; 
+  /*border: 1px solid black;*/
+  /* padding: 10px; */
+ 
+}
+
+.img {
+    height: 130px ;
+    width: 150px;
+    background-size: cover; 
+
+}
+
+.center_wifi{
+    display: flex;
+    justify-content: center;
+}
+
+.sub_page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unlimitedCalls {
+    /* float: left; */
+    margin-left: 5%;
+    flex-basis: 30%;
+}
+
+.globalReach{
+    /* display: flex;
+    justify-content: space-around;
+    float: center; */
+    flex-basis: 30%
+
+}
+
+.phoneSearch{
+    flex-basis: 30%;
+}
